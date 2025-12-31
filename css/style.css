@@ -22,3 +22,16 @@ main {
     align-items: flex-start;
     height: 880px;
 }
+
+.character-area {
+    position: relative;
+    background: white;
+    margin-left: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#character {
+    display: block;
+    pointer-events: none;
+}
